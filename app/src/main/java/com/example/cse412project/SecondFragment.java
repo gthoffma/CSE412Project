@@ -38,8 +38,8 @@ public class SecondFragment extends Fragment {
         view.findViewById(R.id.ToAddFriendBut).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //NavHostFragment.findNavController(SecondFragment.this)
-                        //.navigate(R.id.);
+                NavHostFragment.findNavController(SecondFragment.this)
+                        .navigate(R.id.secondFragment_to_AddFriend);
             }
         });
     }

@@ -16,13 +16,13 @@
         android:layout_marginRight="162dp"
         android:layout_marginBottom="15dp"
         android:text="Login"
-        app:layout_constraintBottom_toTopOf="@+id/CreateAccountBut"
+        app:layout_constraintBottom_toTopOf="@+id/ToCreateAccountBut"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
     <Button
-        android:id="@+id/CreateAccountBut"
+        android:id="@+id/ToCreateAccountBut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="101dp"
@@ -98,7 +98,7 @@
         android:layout_marginRight="23dp"
         android:layout_marginBottom="137dp"
         android:text="Enter Password"
-        app:layout_constraintBottom_toTopOf="@+id/CreateAccountBut"
+        app:layout_constraintBottom_toTopOf="@+id/ToCreateAccountBut"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextPassword"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />

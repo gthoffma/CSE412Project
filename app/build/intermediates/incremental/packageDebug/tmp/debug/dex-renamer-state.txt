@@ -1,0 +1,4 @@
+#Sat Nov 21 16:15:54 MST 2020
+base.0=C\:\\Users\\Armaan\\Desktop\\CSE412Project-main\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

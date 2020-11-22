@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\create_account.xml",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\create_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_friend.xml",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\add_friend.xml"
+    },
+    {
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

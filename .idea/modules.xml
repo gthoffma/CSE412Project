@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CSE412Project.iml" filepath="$PROJECT_DIR$/.idea/modules/CSE412Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CSE412Project.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CSE412Project.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/postgresql-42.2.18/CSE412Project.postgresql-42.2.18.iml" filepath="$PROJECT_DIR$/.idea/modules/postgresql-42.2.18/CSE412Project.postgresql-42.2.18.iml" />
+    </modules>
+  </component>
+</project>

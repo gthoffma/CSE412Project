@@ -24,5 +24,46 @@
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_inputCommentFragment"
+            app:destination="@id/inputCommentFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_friendsList"
+            app:destination="@id/friendsList" />
+        <action
+            android:id="@+id/action_SecondFragment_to_input_FriendRequest"
+            app:destination="@id/input_FriendRequest" />
+        <action
+            android:id="@+id/action_SecondFragment_to_commentsList"
+            app:destination="@id/commentsList" />
     </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.cse412project.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inputCommentFragment"
+        android:name="com.example.cse412project.InputCommentFragment"
+        android:label="fragment_input_comment"
+        tools:layout="@layout/fragment_input_comment" />
+    <fragment
+        android:id="@+id/friendsList"
+        android:name="com.example.cse412project.FriendsList"
+        android:label="fragment_friends_list_list"
+        tools:layout="@layout/fragment_friends_list_list" />
+    <fragment
+        android:id="@+id/input_FriendRequest"
+        android:name="com.example.cse412project.Input_FriendRequest"
+        android:label="fragment_input__friend_request"
+        tools:layout="@layout/fragment_input__friend_request" />
+    <fragment
+        android:id="@+id/commentsList"
+        android:name="com.example.cse412project.CommentsList"
+        android:label="fragment_comments_list_list"
+        tools:layout="@layout/fragment_comments_list_list" />
 </navigation>

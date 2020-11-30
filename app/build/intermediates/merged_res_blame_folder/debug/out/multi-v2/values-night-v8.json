@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ghoff\\Documents\\CSE412\\Project\\Final Phase\\CSE412Project1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ghoff\\.gradle\\caches\\transforms-2\\files-2.1\\c9350c4470b6f4895016aaf418fed985\\material-1.1.0\\res\\values-night-v8\\values-night-v8.xml",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ghoff\\Documents\\CSE412\\Project\\Final Phase\\CSE412Project1\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

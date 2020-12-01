@@ -1,3 +1,5 @@
+com/example/cse412project/CommentPost.java
+ com.example.cse412project.CommentPost
 com/example/cse412project/FirstFragment.java
  com.example.cse412project.FirstFragment
 com/example/cse412project/MyItemRecyclerViewAdapter7.java
@@ -17,6 +19,10 @@ com/example/cse412project/MyItemRecyclerViewAdapter4.java
 com/example/cse412project/NewPostFragment.java
  com.example.cse412project.NewPostFragment
  com.example.cse412project.NewPostFragment$1
+com/example/cse412project/Appuser.java
+ com.example.cse412project.Appuser
+com/example/cse412project/Replies.java
+ com.example.cse412project.Replies
 com/example/cse412project/MyItemRecyclerViewAdapter2.java
  com.example.cse412project.MyItemRecyclerViewAdapter2
  com.example.cse412project.MyItemRecyclerViewAdapter2$ViewHolder
@@ -50,6 +56,8 @@ com/example/cse412project/ItemFragment2.java
  com.example.cse412project.ItemFragment2
 com/example/cse412project/BuildConfig.java
  com.example.cse412project.BuildConfig
+com/example/cse412project/Data.java
+ com.example.cse412project.Data
 com/example/cse412project/MyItemRecyclerViewAdapter6.java
  com.example.cse412project.MyItemRecyclerViewAdapter6
  com.example.cse412project.MyItemRecyclerViewAdapter6$ViewHolder
@@ -79,10 +87,16 @@ com/example/cse412project/Input_FriendRequest.java
 com/example/cse412project/MyItemRecyclerViewAdapter5.java
  com.example.cse412project.MyItemRecyclerViewAdapter5
  com.example.cse412project.MyItemRecyclerViewAdapter5$ViewHolder
+com/example/cse412project/Profession.java
+ com.example.cse412project.Profession
 com/example/cse412project/ItemFragment4.java
  com.example.cse412project.ItemFragment4
+com/example/cse412project/Befriended.java
+ com.example.cse412project.Befriended
 com/example/cse412project/ui/login/LoginResult.java
  com.example.cse412project.ui.login.LoginResult
+com/example/cse412project/HasProfession.java
+ com.example.cse412project.HasProfession
 com/example/cse412project/MainActivity.java
  com.example.cse412project.MainActivity
  com.example.cse412project.MainActivity$1

@@ -22,12 +22,16 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.cse412project.Appuser;
+import com.example.cse412project.Data;
 import com.example.cse412project.R;
 
 import org.jetbrains.annotations.NotNull;
 
 public class LoginFragment extends Fragment {
-
+    //View view;
+    //Button button;
+    Appuser A = new Appuser("John Doe", "123", "1", "123@gmail.com", "pass", 1, "Tempe");
     private LoginViewModel loginViewModel;
 
     @Nullable
@@ -41,6 +45,9 @@ public class LoginFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        //button = (Button)view.findViewById(R.id.button3);
+        //button.setText(A.m_name);
+
         loginViewModel = new ViewModelProvider(this, new LoginViewModelFactory())
                 .get(LoginViewModel.class);
 

@@ -17,7 +17,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class SecondFragment extends Fragment {
-
+    View view;
+    Button button;
+    Data d = new Data();
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
@@ -29,7 +31,8 @@ public class SecondFragment extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
+        button = (Button)view.findViewById(R.id.buttontest);
+        button.setText(d.Appusers.get(0).m_name);
         view.findViewById(R.id.button_logout).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -1520,6 +1520,7 @@ id button_make_post
 id button_user_search
 id button_view_friends
 id button_view_posts
+id buttontest
 id cancel_action
 id cancel_button
 id center

@@ -3,10 +3,10 @@ package com.example.cse412project;
 public class CommentPost {
     public int m_commentImage;
     public String m_commentID;
-    public int m_time;
+    public String m_time;
     public String m_message;
     public String m_userID;
-    public CommentPost(int commentImage, String commentID, int time, String message, String userID){
+    public CommentPost(int commentImage, String commentID, String time, String message, String userID){
         m_commentImage = commentImage;
         m_commentID = commentID;
         m_time = time;

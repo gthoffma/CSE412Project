@@ -32,7 +32,7 @@ public class SecondFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         button = (Button)view.findViewById(R.id.buttontest);
-        button.setText(d.Appusers.get(0).m_name);
+        //button.setText(d.Appusers.get(0).m_name);
         view.findViewById(R.id.button_logout).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

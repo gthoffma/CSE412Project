@@ -16,6 +16,7 @@ com/example/cse412project/MyItemRecyclerViewAdapter4.java
  com.example.cse412project.MyItemRecyclerViewAdapter4$ViewHolder
 com/example/cse412project/NewPostFragment.java
  com.example.cse412project.NewPostFragment
+ com.example.cse412project.NewPostFragment$1
 com/example/cse412project/MyItemRecyclerViewAdapter2.java
  com.example.cse412project.MyItemRecyclerViewAdapter2
  com.example.cse412project.MyItemRecyclerViewAdapter2$ViewHolder
@@ -88,6 +89,8 @@ com/example/cse412project/MainActivity.java
 com/example/cse412project/MyItemRecyclerViewAdapter.java
  com.example.cse412project.MyItemRecyclerViewAdapter
  com.example.cse412project.MyItemRecyclerViewAdapter$ViewHolder
+com/example/cse412project/PostListFragment.java
+ com.example.cse412project.PostListFragment
 com/example/cse412project/ui/login/LoginViewModel.java
  com.example.cse412project.ui.login.LoginViewModel
 com/example/cse412project/ItemFragment.java

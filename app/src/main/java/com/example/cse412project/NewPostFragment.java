@@ -16,5 +16,16 @@ public class NewPostFragment extends Fragment {
             Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_new_post, container, false);
     }
+    public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        view.findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(NewPostFragment.this)
+                        .navigate(R.id.action_newPostFragment_to_commentsList);
+            }
+        });
+    }
+
 
 }

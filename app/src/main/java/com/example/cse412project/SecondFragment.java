@@ -1,17 +1,23 @@
 package com.example.cse412project;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 import java.lang.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class SecondFragment extends Fragment {
+
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,
@@ -23,25 +29,7 @@ public class SecondFragment extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        /*
-        //create string for URL for the Java Database Connectivity API.
-        //We assume the postgresql server is localhost, port is 5432, and database name is cse412project
-        String jdbcURL = "jdbc:postgresql://10.0.2.2:5432/cse412project";
-        //we need the username and password for the server
-        String username = "postgres";
-        String password = "XX";
-        try{
-            Connection connection = DriverManager.getConnection(jdbcURL, username, password);
 
-            Log.d("Connection established", "Connection established");
-            connection.close();
-        }
-        catch (SQLException e){
-            Log.d("ERROR", "ERROR! Could not connect");
-            String s = e.getMessage();
-            Log.e("APP", "exception", e);
-        }
-        */
         view.findViewById(R.id.button_logout).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

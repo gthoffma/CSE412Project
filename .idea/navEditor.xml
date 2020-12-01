@@ -94,6 +94,18 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="commentsList2">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="787" />
+                            <option name="y" value="487" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="friendsList">
                     <value>
                       <LayoutPositions>
@@ -156,9 +168,18 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="481" />
-                            <option name="y" value="465" />
+                            <option name="x" value="132" />
+                            <option name="y" value="-758" />
                           </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_newPostFragment_to_commentsList">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
                         </option>
                       </LayoutPositions>
                     </value>

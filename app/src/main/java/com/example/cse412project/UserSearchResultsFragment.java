@@ -16,5 +16,21 @@ public class UserSearchResultsFragment extends Fragment {
             Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_user_search_results, container, false);
     }
-
+    public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        view.findViewById(R.id.button_friend1).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(UserSearchResultsFragment.this)
+                        .navigate(R.id.action_UserSearchResultsFragment_to_userProfileFragment);
+            }
+        });
+        view.findViewById(R.id.button_friend2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NavHostFragment.findNavController(UserSearchResultsFragment.this)
+                        .navigate(R.id.action_UserSearchResultsFragment_to_userProfileFragment);
+            }
+        });
+    }
 }

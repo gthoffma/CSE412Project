@@ -18,7 +18,11 @@
         android:id="@+id/UserSearchResultsFragment"
         android:name="com.example.cse412project.UserSearchResultsFragment"
         android:label="fragment_search_results"
-        tools:layout="@layout/fragment_user_search_results" />
+        tools:layout="@layout/fragment_user_search_results" >
+        <action
+            android:id="@+id/action_UserSearchResultsFragment_to_userProfileFragment"
+            app:destination="@id/ProfileFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/UserProfileFragment"
@@ -42,6 +46,11 @@
             android:id="@+id/action_UserProfileFragment_to_newPostFragment"
             app:destination="@id/newPostFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="com.example.cse412project.UserProfileFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_profile"/>
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.example.cse412project.ui.login.LoginFragment"

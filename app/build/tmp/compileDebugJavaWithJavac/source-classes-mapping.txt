@@ -33,8 +33,13 @@ com/example/cse412project/ui/login/LoginFragment.java
  com.example.cse412project.ui.login.LoginFragment$3
  com.example.cse412project.ui.login.LoginFragment$4
  com.example.cse412project.ui.login.LoginFragment$5
-com/example/cse412project/ui/login/LoginFormState.java
- com.example.cse412project.ui.login.LoginFormState
+com/example/cse412project/SecondFragment.java
+ com.example.cse412project.SecondFragment
+ com.example.cse412project.SecondFragment$1
+ com.example.cse412project.SecondFragment$2
+ com.example.cse412project.SecondFragment$3
+ com.example.cse412project.SecondFragment$4
+ com.example.cse412project.SecondFragment$5
 com/example/cse412project/data/Result.java
  com.example.cse412project.data.Result
  com.example.cse412project.data.Result$1
@@ -73,6 +78,8 @@ com/example/cse412project/UserSearchFragment.java
  com.example.cse412project.UserSearchFragment$1
 com/example/cse412project/UserSearchResultsFragment.java
  com.example.cse412project.UserSearchResultsFragment
+ com.example.cse412project.UserSearchResultsFragment$1
+ com.example.cse412project.UserSearchResultsFragment$2
 com/example/cse412project/ui/login/LoginViewModelFactory.java
  com.example.cse412project.ui.login.LoginViewModelFactory
 com/example/cse412project/ItemFragment3.java
@@ -86,6 +93,8 @@ com/example/cse412project/Profession.java
  com.example.cse412project.Profession
 com/example/cse412project/ItemFragment4.java
  com.example.cse412project.ItemFragment4
+com/example/cse412project/UserProfileFragment.java
+ com.example.cse412project.UserProfileFragment
 com/example/cse412project/Befriended.java
  com.example.cse412project.Befriended
 com/example/cse412project/ui/login/LoginResult.java
@@ -104,10 +113,5 @@ com/example/cse412project/ui/login/LoginViewModel.java
  com.example.cse412project.ui.login.LoginViewModel
 com/example/cse412project/ItemFragment.java
  com.example.cse412project.ItemFragment
-com/example/cse412project/SecondFragment.java
- com.example.cse412project.SecondFragment
- com.example.cse412project.SecondFragment$1
- com.example.cse412project.SecondFragment$2
- com.example.cse412project.SecondFragment$3
- com.example.cse412project.SecondFragment$4
- com.example.cse412project.SecondFragment$5
+com/example/cse412project/ui/login/LoginFormState.java
+ com.example.cse412project.ui.login.LoginFormState

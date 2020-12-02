@@ -112,6 +112,10 @@
         "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
         "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },

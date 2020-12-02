@@ -1428,6 +1428,7 @@ id BOTTOM_START
 id CTRL
 id FUNCTION
 id META
+id ProfileFragment
 id SHIFT
 id SYM
 id TOP_END
@@ -1475,6 +1476,7 @@ id action_UserProfileFragment_to_UserSearchFragment
 id action_UserProfileFragment_to_loginFragment
 id action_UserProfileFragment_to_newPostFragment
 id action_UserSearchFragment_to_UserSearchResultsFragment
+id action_UserSearchResultsFragment_to_userProfileFragment
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1507,13 +1509,14 @@ id barrier
 id beginning
 id blocking
 id bottom
-id button
 id button2
 id button4
 id button6
 id button8
 id buttonPanel
 id button_first
+id button_friend1
+id button_friend2
 id button_login
 id button_logout
 id button_make_post
@@ -1891,6 +1894,7 @@ layout fragment_item_list2
 layout fragment_login
 layout fragment_new_post
 layout fragment_post_list
+layout fragment_profile
 layout fragment_second
 layout fragment_user_search
 layout fragment_user_search_results

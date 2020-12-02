@@ -19,7 +19,7 @@ public class Data {
         Appusers.add(new Appuser("Karah Lundh", "1993-6-26", "7", "klundh93@gmail.com", "obstacle25", 7, "Seattle WA"));
         Appusers.add(new Appuser("Jerrome Marcelo", "1992-2-29", "8", "jmarc352@gmail.com", "a1amans0r", 8, "Lisbon PT"));
         Appusers.add(new Appuser("Agna Mackenzie", "2000-9-20", "9", "AgnaMack00@gmail.com", "455tens0rflow", 9, "Nowhere AK"));
-        Appusers.add(new Appuser("Jillene Elizabeth", "1991-3-14", "10", "jliz22885@hotmail.com", "passsword12345", 10, "Seattle WA"));
+        Appusers.add(new Appuser("Jillene Elizabeth", "1991-3-14", "10", "jliz22885@hotmail.com", "password12345", 10, "Seattle WA"));
         Appusers.add(new Appuser("Megan Grier", "1985-2-21", "11", "MGrier@gmail.com", "alax43pass", 11, "Richmond VA"));
         Appusers.add(new Appuser("Francine Zara", "1999-11-11", "12", "Elans.tesoFZ52@gmail.com", "Z1lv1a", 12, "Anaheim CA"));
         Appusers.add(new Appuser("Drake Scott", "1979-01-23", "13", "DrakeScott711@gmail.com", "016294ScottVLV!", 13, "Detroit MI"));

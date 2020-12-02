@@ -51,8 +51,8 @@ com/example/cse412project/ItemFragment2.java
  com.example.cse412project.ItemFragment2
 com/example/cse412project/BuildConfig.java
  com.example.cse412project.BuildConfig
-com/example/cse412project/ItemFragment.java
- com.example.cse412project.ItemFragment
+com/example/cse412project/Data.java
+ com.example.cse412project.Data
 com/example/cse412project/MyItemRecyclerViewAdapter6.java
  com.example.cse412project.MyItemRecyclerViewAdapter6
  com.example.cse412project.MyItemRecyclerViewAdapter6$ViewHolder
@@ -102,6 +102,8 @@ com/example/cse412project/PostListFragment.java
  com.example.cse412project.PostListFragment
 com/example/cse412project/ui/login/LoginViewModel.java
  com.example.cse412project.ui.login.LoginViewModel
+com/example/cse412project/ItemFragment.java
+ com.example.cse412project.ItemFragment
 com/example/cse412project/SecondFragment.java
  com.example.cse412project.SecondFragment
  com.example.cse412project.SecondFragment$1
@@ -109,5 +111,3 @@ com/example/cse412project/SecondFragment.java
  com.example.cse412project.SecondFragment$3
  com.example.cse412project.SecondFragment$4
  com.example.cse412project.SecondFragment$5
-com/example/cse412project/Data.java
- com.example.cse412project.Data

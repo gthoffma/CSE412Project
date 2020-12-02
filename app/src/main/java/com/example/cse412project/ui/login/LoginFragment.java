@@ -31,7 +31,9 @@ import org.jetbrains.annotations.NotNull;
 public class LoginFragment extends Fragment {
     //View view;
     //Button button;
-    Appuser A = new Appuser("John Doe", "123", "1", "123@gmail.com", "pass", 1, "Tempe");
+    public int currentUserID;
+    Data d = new Data();
+    //Appuser A = new Appuser("John Doe", "123", "1", "123@gmail.com", "pass", 1, "Tempe");
     private LoginViewModel loginViewModel;
 
     @Nullable
@@ -83,7 +85,26 @@ public class LoginFragment extends Fragment {
                     showLoginFailed(loginResult.getError());
                 }
                 if (loginResult.getSuccess() != null) {
-                    updateUiWithUser(loginResult.getSuccess());
+                    boolean loginSuccess = false;
+                    EditText username = (EditText)view.findViewById(R.id.username);
+                    for(int i = 0; i < d.Appusers.size(); i++){
+                        if(username.getText().toString().equals(d.Appusers.get(i).m_email.toString())){
+                            currentUserID = i;
+                        }
+                    }
+                    EditText pass = (EditText)view.findViewById(R.id.password);
+                    String currentUserPass = pass.getText().toString();
+                    //username.setText(d.Appusers.get(currentUserID).m_password + " " + currentUserPass);
+                    //username.setText(currentUserPass + " " + d.Appusers.get(currentUserID).m_password);
+                    if(d.Appusers.get(currentUserID).m_password.equals(currentUserPass)){
+                        loginSuccess = true;
+                    }
+                    else{
+                        loginSuccess = false;
+                    }
+                    if(loginSuccess) {
+                        updateUiWithUser(loginResult.getSuccess());
+                    }
                 }
             }
         });
@@ -131,10 +152,12 @@ public class LoginFragment extends Fragment {
 
 
     private void updateUiWithUser(@NotNull LoggedInUserView model) {
-        String welcome = getString(R.string.welcome) + " John Adamson";
+        String welcome = getString(R.string.welcome) + " " + d.Appusers.get(currentUserID).m_name;
         // TODO : initiate successful logged in experience
+        Bundle bundle = new Bundle();
+        bundle.putString("userID", Integer.toString(currentUserID));
         NavHostFragment.findNavController(com.example.cse412project.ui.login.LoginFragment.this)
-                .navigate(R.id.action_loginFragment_to_UserProfileFragment);
+                .navigate(R.id.action_loginFragment_to_UserProfileFragment, bundle);
         if (getContext() != null && getContext().getApplicationContext() != null) {
             Toast.makeText(getContext().getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
         }

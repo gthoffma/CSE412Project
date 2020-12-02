@@ -1,7 +1,5 @@
 package com.example.cse412project;
 
-import android.media.Image;
-
 public class Appuser {
     public String m_name;
     public String m_birthdate;

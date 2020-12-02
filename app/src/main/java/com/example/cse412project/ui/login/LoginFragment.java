@@ -6,6 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.fragment.NavHostFragment;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -21,10 +22,18 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.cse412project.Appuser;
+import com.example.cse412project.Data;
 import com.example.cse412project.R;
 
-public class LoginFragment extends Fragment {
+import org.jetbrains.annotations.NotNull;
 
+public class LoginFragment extends Fragment {
+    //View view;
+    //Button button;
+    public int currentUserID;
+    Data d = new Data();
+    //Appuser A = new Appuser("John Doe", "123", "1", "123@gmail.com", "pass", 1, "Tempe");
     private LoginViewModel loginViewModel;
 
     @Nullable
@@ -38,15 +47,18 @@ public class LoginFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        //button = (Button)view.findViewById(R.id.button3);
+        //button.setText(A.m_name);
+
         loginViewModel = new ViewModelProvider(this, new LoginViewModelFactory())
                 .get(LoginViewModel.class);
 
         final EditText usernameEditText = view.findViewById(R.id.username);
         final EditText passwordEditText = view.findViewById(R.id.password);
-        final Button loginButton = view.findViewById(R.id.login);
+        final Button loginButton = view.findViewById(R.id.button_login);
         final ProgressBar loadingProgressBar = view.findViewById(R.id.loading);
 
-        loginViewModel.getLoginFormState().observe(this, new Observer<LoginFormState>() {
+        loginViewModel.getLoginFormState().observe(getViewLifecycleOwner(), new Observer<LoginFormState>() {
             @Override
             public void onChanged(@Nullable LoginFormState loginFormState) {
                 if (loginFormState == null) {
@@ -62,7 +74,7 @@ public class LoginFragment extends Fragment {
             }
         });
 
-        loginViewModel.getLoginResult().observe(this, new Observer<LoginResult>() {
+        loginViewModel.getLoginResult().observe(getViewLifecycleOwner(), new Observer<LoginResult>() {
             @Override
             public void onChanged(@Nullable LoginResult loginResult) {
                 if (loginResult == null) {
@@ -73,7 +85,26 @@ public class LoginFragment extends Fragment {
                     showLoginFailed(loginResult.getError());
                 }
                 if (loginResult.getSuccess() != null) {
-                    updateUiWithUser(loginResult.getSuccess());
+                    boolean loginSuccess = false;
+                    EditText username = (EditText)view.findViewById(R.id.username);
+                    for(int i = 0; i < d.Appusers.size(); i++){
+                        if(username.getText().toString().equals(d.Appusers.get(i).m_email.toString())){
+                            currentUserID = i;
+                        }
+                    }
+                    EditText pass = (EditText)view.findViewById(R.id.password);
+                    String currentUserPass = pass.getText().toString();
+                    //username.setText(d.Appusers.get(currentUserID).m_password + " " + currentUserPass);
+                    //username.setText(currentUserPass + " " + d.Appusers.get(currentUserID).m_password);
+                    if(d.Appusers.get(currentUserID).m_password.equals(currentUserPass)){
+                        loginSuccess = true;
+                    }
+                    else{
+                        loginSuccess = false;
+                    }
+                    if(loginSuccess) {
+                        updateUiWithUser(loginResult.getSuccess());
+                    }
                 }
             }
         });
@@ -119,9 +150,14 @@ public class LoginFragment extends Fragment {
         });
     }
 
-    private void updateUiWithUser(LoggedInUserView model) {
-        String welcome = getString(R.string.welcome) + model.getDisplayName();
+
+    private void updateUiWithUser(@NotNull LoggedInUserView model) {
+        String welcome = getString(R.string.welcome) + " " + d.Appusers.get(currentUserID).m_name;
         // TODO : initiate successful logged in experience
+        Bundle bundle = new Bundle();
+        bundle.putString("userID", Integer.toString(currentUserID));
+        NavHostFragment.findNavController(com.example.cse412project.ui.login.LoginFragment.this)
+                .navigate(R.id.action_loginFragment_to_UserProfileFragment, bundle);
         if (getContext() != null && getContext().getApplicationContext() != null) {
             Toast.makeText(getContext().getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
         }

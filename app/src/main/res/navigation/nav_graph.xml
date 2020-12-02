@@ -3,39 +3,44 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/loginFragment">
 
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.example.cse412project.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
-
+        android:id="@+id/UserSearchFragment"
+        android:name="com.example.cse412project.UserSearchFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_user_search">
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_UserSearchFragment_to_UserSearchResultsFragment"
+            app:destination="@id/UserSearchResultsFragment" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
+        android:id="@+id/UserSearchResultsFragment"
+        android:name="com.example.cse412project.UserSearchResultsFragment"
+        android:label="fragment_search_results"
+        tools:layout="@layout/fragment_user_search_results" />
+
+    <fragment
+        android:id="@+id/UserProfileFragment"
         android:name="com.example.cse412project.SecondFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_second">
 
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
-        <action
-            android:id="@+id/action_SecondFragment_to_inputCommentFragment"
-            app:destination="@id/inputCommentFragment" />
-        <action
             android:id="@+id/action_SecondFragment_to_friendsList"
             app:destination="@id/friendsList" />
         <action
-            android:id="@+id/action_SecondFragment_to_input_FriendRequest"
-            app:destination="@id/input_FriendRequest" />
-        <action
             android:id="@+id/action_SecondFragment_to_commentsList"
             app:destination="@id/commentsList" />
+        <action
+            android:id="@+id/action_UserProfileFragment_to_UserSearchFragment"
+            app:destination="@id/UserSearchFragment" />
+        <action
+            android:id="@+id/action_UserProfileFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_UserProfileFragment_to_newPostFragment"
+            app:destination="@id/newPostFragment" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
@@ -43,14 +48,23 @@
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
-            android:id="@+id/action_loginFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_loginFragment_to_UserProfileFragment"
+            app:destination="@id/UserProfileFragment" />
     </fragment>
     <fragment
         android:id="@+id/inputCommentFragment"
         android:name="com.example.cse412project.InputCommentFragment"
         android:label="fragment_input_comment"
         tools:layout="@layout/fragment_input_comment" />
+    <fragment
+        android:id="@+id/newPostFragment"
+        android:name="com.example.cse412project.NewPostFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_new_post">
+        <action
+            android:id="@+id/action_newPostFragment_to_commentsList"
+            app:destination="@id/commentsList" />
+    </fragment>
     <fragment
         android:id="@+id/friendsList"
         android:name="com.example.cse412project.FriendsList"

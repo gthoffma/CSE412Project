@@ -77,20 +77,6 @@ public class SecondFragment extends Fragment {
                         .navigate(R.id.action_UserProfileFragment_to_UserSearchFragment);
             }
         });
-        view.findViewById(R.id.button_view_posts).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(SecondFragment.this)
-                        .navigate(R.id.action_SecondFragment_to_commentsList);
-            }
-        });
-        view.findViewById(R.id.button_view_friends).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(SecondFragment.this)
-                        .navigate(R.id.action_SecondFragment_to_friendsList);
-            }
-        });
         view.findViewById(R.id.button_make_post).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

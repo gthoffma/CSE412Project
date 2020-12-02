@@ -1,10 +1,12 @@
 package com.example.cse412project;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
@@ -26,8 +28,20 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                final AlertDialog deviceAlreadyRegistered = new AlertDialog.Builder(MainActivity.this).create();
+                deviceAlreadyRegistered.setTitle("Friend Request");
+                deviceAlreadyRegistered.setMessage("You have a friend request from Drake Scott");
+                deviceAlreadyRegistered.setButton(AlertDialog.BUTTON_POSITIVE, "Accept",new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        deviceAlreadyRegistered.dismiss();
+                    }
+                });
+                deviceAlreadyRegistered.setButton(AlertDialog.BUTTON_NEGATIVE, "Decline",new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        deviceAlreadyRegistered.dismiss();
+                    }
+                });
+                deviceAlreadyRegistered.show();
             }
         });
     }

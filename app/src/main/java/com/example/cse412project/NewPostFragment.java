@@ -9,6 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.google.android.material.snackbar.Snackbar;
+
 public class NewPostFragment extends Fragment {
     @Override
     public View onCreateView(
@@ -21,8 +23,9 @@ public class NewPostFragment extends Fragment {
         view.findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(NewPostFragment.this)
-                        .navigate(R.id.action_newPostFragment_to_commentsList);
+                Snackbar.make(view, "Post has been created", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+
             }
         });
     }

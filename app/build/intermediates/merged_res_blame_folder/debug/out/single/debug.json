@@ -1,174 +1,194 @@
 [
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_input__friend_request.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_input__friend_request.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_item_list2.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_item_list2.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_user_search.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_user_search.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_item_list2.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_item_list2.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_user_search.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_user_search.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_user_search_results.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_user_search_results.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\menu\\menu_main.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_first.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_first.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_friendslist.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_friendslist.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_alienphoto.png.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\drawable-v24\\alienphoto.png"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_new_post.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_new_post.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_comments_list_list.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_comments_list_list.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_owlphoto.jpg.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\drawable-v24\\owlphoto.jpg"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_friends_list_list.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_friends_list_list.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_friends_list_list.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_friends_list_list.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_post_list.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_post_list.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_item_list.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_item_list.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_second.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\content_main.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_comments_list_list.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_comments_list_list.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_comments.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_comments.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_input_comment.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_input_comment.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_post_list.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_post_list.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\menu\\menu_main.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_friendslist.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_friendslist.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_comments_list.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_comments_list.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_login.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_login.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_item2.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_item2.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_item2.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_item2.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_dogphoto.jpg.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\drawable-v24\\dogphoto.jpg"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_friends_list.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_friends_list.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\content_main.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_second.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_friends_list.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_friends_list.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_birdphoto.jpg.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\drawable-v24\\birdphoto.jpg"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_item.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_item.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_item.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_item.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_comments.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_comments.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_user_search_results.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_user_search_results.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_item_list.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_item_list.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_login.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_login.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_first.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_first.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\navigation\\nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_comments_list.xml.flat",
-        "source": "C:\\Users\\ghoff\\Documents\\GitHub\\CSE412Project\\app\\src\\main\\res\\layout\\fragment_comments_list.xml"
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_koalaphoto.jpg.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\drawable-v24\\koalaphoto.jpg"
+    },
+    {
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_input_comment.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_input_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_new_post.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_new_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_input__friend_request.xml.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\layout\\fragment_input__friend_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\brand\\Documents\\GitHub\\CSE412ProjectMain\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     }
 ]
